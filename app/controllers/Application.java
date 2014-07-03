@@ -43,7 +43,7 @@ public class Application extends Controller {
         Map<String, String> callParams = new HashMap<String, String>();
         callParams.put("To", to);
         callParams.put("From", TWILIO_NUMBER);
-        callParams.put("Url", "http://twimlets.com/message?Message%5B0%5D=http://demo.kevinwhinnery.com/audio/zelda.mp3");
+        callParams.put("Url", "http://twilio-elearning.herokuapp.com/starter/voice.php");
         callFactory.create(callParams);
         
         return ok("Call is inbound!");
@@ -59,7 +59,7 @@ public class Application extends Controller {
         Map<String, String> smsParams = new HashMap<String, String>();
         smsParams.put("To", to);
         smsParams.put("From", TWILIO_NUMBER);
-        smsParams.put("Body", "Good luck on your Twilio quest!");
+        smsParams.put("Body", "Have fun with your Twilio development!");
         smsFactory.create(smsParams);
     	
         return ok("Message incoming!");
@@ -69,7 +69,7 @@ public class Application extends Controller {
     public static Result hello() throws TwiMLException {
         TwiMLResponse response = new TwiMLResponse();
         Say one = new Say("Hello there! You have successfully configured a web hook.");
-        Say two = new Say("Good luck on your Twilio quest!");
+        Say two = new Say("Have fun with your Twilio development!");
         two.setVoice("woman");
 
         response.append(one);

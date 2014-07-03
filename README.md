@@ -1,10 +1,10 @@
-# Welcome to the Java Guild!
+# Welcome to the Java Starter!
 
-As members of the Java Guild, you will be working through the challenges of TwilioQuest using the Java programming language and the [Play Framework](http://www.playframework.com/).  This project is pre-configured to have some interesting functionality built in using the Twilio Java helper library.
+This project is pre-configured to have some interesting functionality built in using the Twilio Java helper library and the [Play Framework](http://www.playframework.com/).
 
 ## Setting Up
 
-As a first step, you should [download this project](https://github.com/twilio/starter-java), or clone it if you are a Git user.  Navigate to the directory for this project, and open it with your favorite text editor.
+As a first step, you should [download this project](https://github.com/Beabs0063/starter-java), or clone it if you are a Git user.  Navigate to the directory for this project, and open it with your favorite text editor.
 
 Rename the file `{project root}/conf/application.conf.sample` to `{project root}/conf/application.conf`.  Open this file and locate the following three lines of configuration:
 
@@ -29,11 +29,9 @@ To run the application, enter the command `run`.  This will start a local HTTP s
 
 ![run command](http://demo.kevinwhinnery.com/upload/starter-java_%E2%80%94_java_%E2%80%94_202%C3%9754-20130827-141558.png)
 
-When you vist [http://localhost:9000/](http://localhost:9000/) in a web browser, you should see a page that looks like this:
-
-![java guild app](http://demo.kevinwhinnery.com/upload/Welcome_to_the_Java_Guild%21-20130827-141929.png)
+When you vist [http://localhost:9000/](http://localhost:9000/) in a web browser, you should see a page UI.
 
 Try out the text message and voice call demos by entering your mobile phone number and clicking the button.  If you receive a text message and a call, everything is working!
 
-## Begin Questing!
-This is but your first step into a larger world.  [Return to TwilioQuest](http://quest.twilio.com) to continue your adventure.  Huzzah!
+## Begin Learning Twilio!
+This is your first step into the Twilio learning program.  Return to the site to continue on.  Huzzah!
